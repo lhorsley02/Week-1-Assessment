@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a version control system that allows developers to track changes to code projects. It also prevents loss of progress and allows you to view the history of your projects in snapshots."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is a website used to store and dispay software development projects by many deveolpers. It allows developers to use git for version control as well as create repositories."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+let gitInitDefinition = "git init is a command that allows you to initialize your file into an existing repository, or creates a new repository. "
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+let gitCloneDefinition = "git clone is a command that allows the developer to create a clone of the chosen repository."
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+let gitStatusDefinition = "git status is a command that allows the developer to view the state of the working directory by showing which files are and aren't being tracked by git."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,10 @@
 
 //CODE HERE
 
+let gitAddDefinition = "git add is a command that adds changes from the working directory. Git recognizes that you want to update these changes in the next commit"
+
+let gitAddCode = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +79,9 @@
 
 //CODE HERE
 
+let gitCommitDefinition = "git commit is a command that creates a snapshot of the current changes to your project"
+
+let gitCommitCode = "git commit -m 'Initial Commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +90,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = "git push is a command that takes the local repository and uploads it to a remote repository."
