@@ -15,7 +15,7 @@ reader. question("Please enter the password you wish to validate: ", function(in
 	passLength = userPass.length;
 	passCase = " ";
 
-	console.log('userPass', userPass);
+	// console.log('userPass', userPass);
 	console.log('passLength', userPass.length);
 
 
