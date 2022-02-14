@@ -13,7 +13,6 @@ reader. question("Please enter the password you wish to validate: ", function(in
     
     userPass = tokens[0];
 	passLength = userPass.length;
-	passCase = " ";
 
 	// console.log('userPass', userPass);
 	console.log('passLength', userPass.length);
@@ -22,7 +21,7 @@ reader. question("Please enter the password you wish to validate: ", function(in
 	if (userPass.length > 10){
         console.log("password is too long");
 	}
-	if (userPass.length < 10 ){
+	else if (userPass.length < 10 ){
         console.log("password is too short")
 	}
     else{ 
